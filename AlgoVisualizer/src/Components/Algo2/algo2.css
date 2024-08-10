@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* padding: 20px; */
+  width: 100%;
+  /* margin: 0 auto; */
+  background-color: white;
+  color: #ddd;
+}
+.algo2container{
+    padding: 2vw;
+}
+section {
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 2em;
+  color: #2980b9;
+  border-bottom: 2px solid #666;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 15px;
+}
+ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+code {
+  font-family: Consolas, monospace;
+  background-color: #333;
+  color: #ddd;
+  padding: 2px 5px;
+  border-radius: 3px;
+}

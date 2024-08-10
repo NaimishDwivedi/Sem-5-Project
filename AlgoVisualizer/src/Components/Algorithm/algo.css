@@ -1,0 +1,101 @@
+.algocontainer{
+    padding: 2vw;
+    background-color: white;
+    text-align: justify;
+    color: darkslategrey;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 0.8vw;
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+h1{
+    font-size: 2.5vw;
+}
+.algocontainer h2{
+    color: #2980b9;
+}
+
+/* Paragraph styling */
+p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    color: darkslategrey;
+    font-size: 1.2vw;
+}
+.algocontainer img{
+    margin: 3% 0%;
+    display: flex;
+    width:40%;
+    height: 40%;
+    filter: invert(1) brightness(2);
+    background-color:yellow;
+    /* transform: translateY(-50%); */
+    /* margin: auto; */
+    /* filter: contrast(-1000%); */
+    /* background-color: rebeccapurple; */
+}
+
+ul, ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    color: darkslategray;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1vw;
+}
+
+/* Link styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Additional styles for sections */
+h2 {
+    border-bottom: 2px solid darkslategray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: darkslategray;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkslategray;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}
