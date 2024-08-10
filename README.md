@@ -8,3 +8,5 @@ Download the project zip folder and ensure that your machine has nodejs installe
 #Run command
 npm run dev
 
+![Home Page]('./AlgoVishome.png')
+
